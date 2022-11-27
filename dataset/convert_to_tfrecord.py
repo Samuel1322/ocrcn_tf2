@@ -98,6 +98,8 @@ def run(p):
 
 
 if __name__ == "__main__":
+    sys.argv=['./hwdb_raw/HWDB1.1trn_gnt/',
+              './hwdb_raw/HWDB1.1tst_gnt/']
     if len(sys.argv) <= 1:
         logging.error('send a pattern like this: {}'.format('./hwdb_raw/HWDB1.1trn_gnt/'))
     else:
